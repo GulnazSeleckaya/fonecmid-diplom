@@ -124,14 +124,10 @@
       <name>Отбор.Владелец</name>
       <field>Document.РеализацияТоваровУслуг.Attribute.Контрагент</field>
     </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>Document.РеализацияТоваровУслуг.Attribute.Организация</field>
-    </choiceParameterLinks>
     <choiceParameters>
       <name>Отбор.ВидДоговора</name>
       <value xsi:type="core:ReferenceValue">
-        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.Покупатель</value>
+        <value>Enum.ВидыДоговоровКонтрагентов.EnumValue.ВКМ_АбонентскоеОбслуживание</value>
       </value>
     </choiceParameters>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -410,4 +406,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="81af7d40-b65c-4d85-a908-c7950c197342">
+    <name>ПФ_MXL_АктОбОказанныхУслугах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказанных услугах</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bd3f481-6f0c-4e67-bb42-c0de421719c2">
+  <producedTypes>
+    <selectionType typeId="a4bc0022-6e01-423b-b43a-637cae173c26" valueTypeId="cd659ebc-ba34-492d-8ec2-2d79199c5efb"/>
+    <listType typeId="4afe2064-fcf1-4cb7-8119-c2c6c807bc1e" valueTypeId="3eea4771-80ce-40bb-96e1-a50f41c5e5f5"/>
+    <managerType typeId="14cc3680-c482-4bb8-afe3-363b9605e88e" valueTypeId="30a2d783-901c-4a53-b622-578e90efe3ed"/>
+    <recordSetType typeId="2127ee41-54d0-4735-9d2c-01e563abb9c6" valueTypeId="6b55ae62-63db-4a73-a9bc-c035de57a33f"/>
+    <recordKeyType typeId="bd753057-cb0a-4b41-9f83-2f04008a6442" valueTypeId="1e3cade3-8b09-4290-8bbe-7552ae39a31d"/>
+    <recordType typeId="72a20cb7-c33d-4aba-8dbe-fbfd7a5904a3" valueTypeId="efe326ab-97f7-46e8-b69f-b4a1b1e99a3f"/>
+  </producedTypes>
+  <name>ВКМ_ВыполненныеКлиентуРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ выполненные клиенту работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0bd462f0-1722-4d0e-b23c-c7ff3ca2d89e">
+    <name>ВКМ_КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ce77895b-16e5-4965-a791-6b049ee32eb8">
+    <name>ВКМ_СуммаКОплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма к оплате</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b9ec3773-16bd-44b3-94a1-56fcabe5692d">
+    <name>ВКМ_Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="efe6e9d4-38dc-4d13-a527-72099a2929de">
+    <name>ВКМ_Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
