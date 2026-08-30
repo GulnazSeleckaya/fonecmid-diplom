@@ -26,6 +26,7 @@
   <defaultObjectForm>Document.ВКМ_ОбслуживаниеКлиентов.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ВКМ_ОбслуживаниеКлиентов.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="7bc3e0ee-f205-4b3d-ba9c-2ff8a8870a7c">
