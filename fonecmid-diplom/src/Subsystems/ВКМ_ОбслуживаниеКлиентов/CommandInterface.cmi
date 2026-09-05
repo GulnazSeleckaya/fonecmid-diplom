@@ -7,6 +7,36 @@
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.ДоговорыКонтрагентов.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Контрагенты.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Организации.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.РеализацияТоваровУслуг.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
@@ -16,6 +46,7 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиентов.StandardCommand.OpenList</commands>
+      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Регистры</group>
@@ -30,6 +61,7 @@
     <orderFragments>
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_ОбслуживаниеКлиентов.StandardCommand.OpenList</commands>
+      <commands>Document.РеализацияТоваровУслуг.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Регистры</group>
