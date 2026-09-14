@@ -7140,13 +7140,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ГруппыВнешнихПользователей.Command.ГруппыВнешнегоПользователя</name>
 		<right>
 			<name>View</name>

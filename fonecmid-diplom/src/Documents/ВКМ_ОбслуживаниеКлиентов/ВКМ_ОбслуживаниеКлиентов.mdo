@@ -106,6 +106,14 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм:сс</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм:сс</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -122,6 +130,14 @@
       <types>Date</types>
       <dateQualifiers/>
     </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм:сс</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=ЧЧ:мм:сс</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

@@ -23,4 +23,6 @@
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Организации</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Constant.ВКМ_ТокенУправленияТелеграмБотом</content>
+  <content>Constant.ВКМ_ИдентификаторГруппыДляОповещания</content>
 </mdclass:Subsystem>
